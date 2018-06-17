@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.salomoncastro.parcial02.LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#303F9F">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/game"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="GAME NOTICE"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="USERNAME"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/contra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/loginBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFF"/>
+
+</LinearLayout>
